@@ -1,6 +1,6 @@
 # SDd
 
-This repository contains the implementation of SDd, a dynamic searchable symmetric encryption (DSSE) scheme proposed in [1]. SDd achieves forward and Type-II backward privacy [2], and it is one of the most efficient DSSE schemes with minimised storage cost on the client. Since this scheme is not implemented with a RPC framework, we integrate Apache Thrift with this scheme to evaluate its performance under the networked environment and compare it with the real network performance of a new DSSE scheme (Aura) proposed in our NDSS'21 paper [3].
+This repository contains the implementation of SDd, a dynamic searchable symmetric encryption (DSSE) scheme proposed in [1]. SDd achieves forward and Type-II backward privacy [2], and it is one of the most efficient DSSE schemes with minimised storage cost on the client. Since this scheme is not implemented with an RPC framework, we integrate Apache Thrift with this scheme to evaluate its performance under the networked environment and compare it with the real network performance of a new DSSE scheme (Aura) proposed in our NDSS'21 paper [3].
 
 
 
@@ -40,7 +40,7 @@ All the above executable files can be executed without extra parameters.
 ## Feedback
 
 - [Submit an issue](https://github.com/MonashCybersecurityLab/SDd/issues/new)
-- Email the authors: shifeng.sun@monash.edu, shangqi.lai@monash.edu
+- Email the authors: shifeng.sun@monash.edu, shangqi.lai@monash.edu, xingliang.yuan@monash.edu
 
 
 
